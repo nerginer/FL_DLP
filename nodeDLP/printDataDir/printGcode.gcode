@@ -1,0 +1,3 @@
+settingsJsonFile:sett
+meterialJsonFile:meterial
+printImgFile:prinimage

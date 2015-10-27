@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+    
+        <div class="jumbotron">
+   
+            <h3>Print Manager</h3>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                  Print Job:
+               </div>
+               <div class="panel-body">
+                  <%= printJob %>
+               </div>
+            </div>
+
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                
+               </div>
+               <div class="panel-body">
+                 
+                 
+                 <form action="/printManager" method="post">
+                  <button type="submit" name='buttonStartPrint'>Start Print</button>
+                 </form>
+
+               </div>
+            </div>
+
+        
+
+
+        </div>
+    </main>
+
+    <footer>
+        <% include footer %>
+    </footer>
+    
+</body>
+</html>
+
+
+
+

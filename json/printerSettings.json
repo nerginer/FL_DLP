@@ -1,0 +1,18 @@
+{
+  "download_dir": "/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/downloadDir",
+  "print_data_dir": "/Users/gnexlab_imac/code/dlp_raspi/RaspiDLP/nodeDLP/printDataDir",
+  "hardware_ver": "0.1",
+  "header_code": ";*** Header Start ***\r\nG21 ;Set units to be mm\r\nG91 ;Relative Positioning\r\nM17 ;Enable motors\r\n;*** Header End ***",
+  "footer_code": ";*** Footer Start ***\r\nM18 ;Disable Motors\r\n;<Completed>\r\n;*** Footer End ***",
+  "first_layer_lift_code": ";*** FirstLayer Lift Sequence Start ***\r\nG1 X10.0 Z5.0 F10\r\nG1 X-10.0 Z-4.95 F10\r\n;*** FirstLayer Lift Sequence End ***",
+  "lift_code": ";*** Lift Sequence Start***\r\nG1 X100.0 Z50.0 F50\r\nG1 X-100.0 Z-49.5 F50\r\n;*** Lift Sequence End ***",
+  "first_layer_motion_time": "3500",
+  "layer_motion_time": "2500",
+  "xy_pixel_size": "50",
+  "projector_res_h": "1024",
+  "projector_res_w": "768",
+  "build_table_x": "51.2",
+  "build_table_y": "38.4",
+  "build_table_height": "100"
+  
+}
